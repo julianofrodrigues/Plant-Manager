@@ -1,20 +1,32 @@
 import React from "react";
-import { SafeAreaView, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-import watering from '../assets/watering.png'
-import Button from "../components/Button";
+import { SafeAreaView, Text, StyleSheet, Image, TouchableOpacity, Dimensions, View } from "react-native";
+import { useNavigation } from "@react-navigation/core";
+import { Feather } from '@expo/vector-icons'
+import watering from '../assets/watering.png';
+import fonts from "../styles/fonts";
 import colors from "../styles/colors";
 
 export default function Welcome(){
+  const navigation = useNavigation();
+
+  function handleStart(){
+    navigation.navigate('UserIdentification')
+  }
+
   return (
     <SafeAreaView style={style.container}>
+      <View style={style.wrapper}>
         <Text style={style.title}>
             Gerencie {'\n'} 
-            suas plantas {'\n'} 
-            de forma fácil
+            suas plantas de{'\n'} 
+            forma fácil
         </Text>
-        <Image source={watering} style={style.image} />
+        <Image source={watering} style={style.image} resizeMode="contain" />
         <Text style={style.subtitle}>Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você sempre que precisar.</Text>
-        <Button title=">" />
+        <TouchableOpacity style={style.button} activeOpacity={0.7} onPress={handleStart}>
+          <Feather name="chevron-right" style={style.buttonIcon} />
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   )
 }
@@ -22,24 +34,43 @@ export default function Welcome(){
 const style = StyleSheet.create({
   container:{
     flex: 1, 
-    justifyContent: 'space-between', 
-    alignItems: 'center'
+  },
+  wrapper:{
+    flex: 1, 
+    justifyContent: 'space-around', 
+    alignItems: 'center',
+    paddingHorizontal: 20,
   },
   title:{
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: 'bold',
     textAlign: 'center',
     color: colors.heading,
-    marginTop: 38
+    marginTop: 38,
+    fontFamily: fonts.heading,
+    lineHeight: 34,
   },
   subtitle:{
     textAlign: 'center',
     fontSize: 18,
     paddingHorizontal: 20,
     color: colors.heading,
+    fontFamily: fonts.text,
   },
   image:{
-    width: 292,
-    height: 284
+    height: Dimensions.get('window').width * 0.7,
+  },
+  button:{
+    backgroundColor: colors.green,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 16,
+    marginBottom: 10,
+    height: 56,
+    width: 56,
+  },
+  buttonIcon:{
+    fontSize: 32,
+    color: colors.white,
   }
 })
