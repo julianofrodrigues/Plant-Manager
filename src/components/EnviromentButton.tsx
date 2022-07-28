@@ -28,16 +28,16 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 12,
         marginHorizontal: 5
-      },
-      containerActive:{ 
+    },
+    containerActive:{ 
         backgroundColor: colors.green_light,
-      },
-      text:{
+    },
+    text:{
         color: colors.heading,
         fontFamily: fonts.text,
-      },
-      textActive:{
+    },
+    textActive:{
         color: colors.green_dark,
         fontFamily: fonts.heading,
-      }
+    }
 })
