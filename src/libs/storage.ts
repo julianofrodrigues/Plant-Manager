@@ -45,7 +45,7 @@ export async function loadPlant() : Promise<PlantProps[]> {
     try{
         const data = await AsyncStorage.getItem('@plantmanager:plants');
         const plants = data ? (JSON.parse(data) as StoragePlantProps) : {};
-        const plantsSorted = Object.keys(plants).map(()=>{ 
+        const plantsSorted = Object.keys(plants).map((plant)=>{ 
             return { 
                 ...plants[plant].data, 
                 hour: format(new Date(plants[plant].data.dateTimeNotification), 'HH:mm')

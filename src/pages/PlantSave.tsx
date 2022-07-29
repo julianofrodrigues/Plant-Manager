@@ -19,7 +19,9 @@ interface Params{
 
 export default function PlantSave(){
     const [selectedDateTime, setSelectedDateTime] = useState(new Date());
-    const [showDatePicker, setShowDatePicker] = useState(Platform.OS == 'ios')
+    const [showDatePicker, setShowDatePicker] = useState(Platform.OS == 'ios');
+    const route = useRoute();
+    const { plant } = route.params as Params;
     const navigation = useNavigation();
 
     function handleChangeTime(event: Event, dateTime: Date | undefined){
@@ -29,12 +31,11 @@ export default function PlantSave(){
 
         if(dateTime && isBefore(dateTime, new Date())){
             setSelectedDateTime(new Date())
-            return Alert.alert('Escolha uma hora no futuro! ⏰');
+            return Alert.alert('Escolha uma hora no futuro ⏰');
         }
 
         if(dateTime)
             setSelectedDateTime(dateTime)
-
     }
 
     function handleOpenDateTimePickerForAndroid(){
@@ -60,9 +61,9 @@ export default function PlantSave(){
       }
     }
 
-    const route = useRoute();
-    const { plant } = route.params as Params;
+    
     return (
+      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.container}>
         <View style={styles.container}>
             <View style={styles.plantInfo}>
                 <SvgFromUri uri={plant.photo} height={150} width={150} />
@@ -85,6 +86,7 @@ export default function PlantSave(){
                 <Button title="Cadastrar Planta" onPress={handleSave} />
             </View>
         </View>
+      </ScrollView>
     )
 }
 

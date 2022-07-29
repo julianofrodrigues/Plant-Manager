@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import {  View, Text, StyleSheet, Image } from "react-native";
+import {  View, Text, StyleSheet, Image, FlatList } from "react-native";
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
-import { useNavigation } from "@react-navigation/core";
 import Header from "../components/Header";
 import WaterDrop from '../assets/waterdrop.png';
-import { FlatList } from "react-native-gesture-handler";
 import { loadPlant, PlantProps } from "../libs/storage";
 import { formatDistance } from "date-fns";
+import { pt } from 'date-fns/locale';
 import PlantCardSecondary from "../components/PlantCardSecondary ";
 
 
@@ -79,7 +78,6 @@ const styles = StyleSheet.create({
         flex: 1,
         color: colors.blue,
         paddingHorizontal: 20,
-        textAlign: 'justify'
     },
     plants:{
         flex: 1,

@@ -8,28 +8,22 @@ import fonts from "../styles/fonts";
 
 interface PlantCardPrimaryProps extends RectButtonProps {
     data: {
-        name: string,
-        photo: string,
-        hour: string
+        name: string;
+        photo: string;
+        hour: string;
     };
 }
 
 export default function PlantCardSecondary({ data, ...rest }: PlantCardPrimaryProps){
     return(
-        <>
-            <RectButton style={styles.container}  {...rest}>
-                <SvgFromUri uri={ data.photo } width={50} height={50} />
+         <RectButton style={styles.container}  {...rest}>
+            <SvgFromUri uri={ data.photo } width={50} height={50} />
                 <Text style={styles.title}>{ data.name }</Text>
                 <View style={styles.details}>
-                    <Text style={styles.timeLabel}>
-                        Regar às
-                    </Text>
-                    <Text style={styles.time}>
-                        {data.hour}
-                    </Text>
+                    <Text style={styles.timeLabel}>Regar às</Text>
+                    <Text style={styles.time}>{ data.hour }</Text>
                 </View>
-            </RectButton>
-        </>
+        </RectButton> 
     )
 }
 
@@ -55,7 +49,6 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end',
     },
     timeLabel:{
-        marginTop: 5,
         fontSize: 16,
         fontFamily: fonts.text,
         color: colors.body_light
