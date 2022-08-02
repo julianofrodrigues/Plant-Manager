@@ -3,7 +3,7 @@
 # Resumo do projeto
 Um App para organizar e cuidar das suas plantas 😁
 
-## Iagem do App abaixo 😬
+## Imagens do App abaixo 😬
 
 <p>
 <img src="https://i.imgur.com/ax0hbGi.jpg" style="width: 400px; height: 650px"/>
