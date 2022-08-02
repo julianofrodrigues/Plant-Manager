@@ -4,16 +4,23 @@
 Um App para organizar e cuidar das suas plantas 😁
 
 ## Iagem do App abaixo 😬
-</p>
 
+<p>
 <img src="https://i.imgur.com/ax0hbGi.jpg" style="width: 400px; height: 650px"/>
 <img src="https://i.imgur.com/nznglAE.jpg" style="width: 400px; height: 650px"/>
+</P>
+
+<p>
 <img src="https://i.imgur.com/1SWuXaG.jpg" style="width: 400px; height: 650px"/>
 <img src="https://i.imgur.com/EP3bkVd.jpg" style="width: 400px; height: 650px"/>
+</P>
+<p>
 <img src="https://i.imgur.com/jSEJde6.jpg" style="width: 400px; height: 650px"/>
 <img src="https://i.imgur.com/siNXtvA.jpg" style="width: 400px; height: 650px"/>
+</P>
+<p align="center">
 <img src="https://i.imgur.com/mvcp84E.jpg" style="width: 400px; height: 650px"/>
-
+</p>
 
 ## 📁 Acesso ao projeto
 Para experimenta-lo é bem simples:<br>
