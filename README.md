@@ -7,12 +7,12 @@ Um App para organizar e cuidar das suas plantas 😁
 </p>
 
 <img src="https://i.imgur.com/ax0hbGi.jpg" style="width: 400px; height: 650px"/>
-<img src="https://i.imgur.com/nznglAE.jpg"/>
-<img src="https://i.imgur.com/1SWuXaG.jpg"/>
-<img src="https://i.imgur.com/EP3bkVd.jpg"/>
-<img src="https://i.imgur.com/jSEJde6.jpg"/>
-<img src="https://i.imgur.com/siNXtvA.jpg"/>
-<img src="https://i.imgur.com/mvcp84E.jpg"/>
+<img src="https://i.imgur.com/nznglAE.jpg" style="width: 400px; height: 650px"/>
+<img src="https://i.imgur.com/1SWuXaG.jpg" style="width: 400px; height: 650px"/>
+<img src="https://i.imgur.com/EP3bkVd.jpg" style="width: 400px; height: 650px"/>
+<img src="https://i.imgur.com/jSEJde6.jpg" style="width: 400px; height: 650px"/>
+<img src="https://i.imgur.com/siNXtvA.jpg" style="width: 400px; height: 650px"/>
+<img src="https://i.imgur.com/mvcp84E.jpg" style="width: 400px; height: 650px"/>
 
 
 ## 📁 Acesso ao projeto
