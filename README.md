@@ -6,7 +6,7 @@ Um App para organizar e cuidar das suas plantas 😁
 ## Iagem do App abaixo 😬
 </p>
 <p align="center">
-<img src="https://i.imgur.com/ax0hbGi.jpg"/>
+<img src="https://i.imgur.com/ax0hbGi.jpg" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 150px; height: 500px"/>
 <img src="https://i.imgur.com/nznglAE.jpg"/>
 <img src="https://i.imgur.com/1SWuXaG.jpg"/>
 <img src="https://i.imgur.com/EP3bkVd.jpg"/>
