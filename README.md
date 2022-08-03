@@ -31,17 +31,19 @@ $ git clone https://github.com/julianofrodrigues/plant-manager.git
 -Instale o Json Server globalmente
 ```bash
 $ npm install -g json-server
+```
 ou
+```bash
 $ yarn add json-server -g
 ```
--Altere o arquivo api.ts:
-```bash
-//No baseURL onde esta escrito Seu IP, colocando o seu IP, após a alteração ficará similar ao exemplo abaixo:
+
+-Altere o arquivo api.ts:<br>
+-No baseURL onde esta escrito Seu IP, colocando o seu IP, após a alteração ficará similar ao exemplo abaixo:<br>
 baseURL: 'http://192.168.0.1:3333'
-```
--Inicie o Json Server
+
+-Inicie o Json Server<br>
+-No host coloque o seu Ip e a porta pode ser qualquer uma que não esteja em uso, como abaixo:
 ```bash
-//No host coloque o seu Ip e a porta pode ser qualquer uma que não esteja em uso:
 $ json-server ./src/services/server.json --host 192.168.0.1 --port 3333
 ```
 -Baixe as bibliotecas
