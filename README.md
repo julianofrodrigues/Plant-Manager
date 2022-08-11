@@ -1,9 +1,9 @@
 <h1 align="center"> 🌻Plant-Manager </h1>
 
-# Resumo do projeto
-Um App para organizar e cuidar das suas plantas 😁
+## Project Summary
+An App to organize and care for your plants 😁
 
-## Imagens do App abaixo 😬
+## Application images below 😬
 
 <p>
 <img src="https://i.imgur.com/ax0hbGi.jpg" style="width: 400px; height: 650px"/>
@@ -22,43 +22,44 @@ Um App para organizar e cuidar das suas plantas 😁
 <img src="https://i.imgur.com/mvcp84E.jpg" style="width: 400px; height: 650px"/>
 </p>
 
-## 📁 Acesso ao projeto
-Para experimenta-lo é bem simples:<br>
--Clone o repositorio
+## 📁 Project Access
+To try it is very simple:<br>
+-Clone the repository
 ```bash
 $ git clone https://github.com/julianofrodrigues/plant-manager.git
 ```
--Instale o Json Server globalmente
+-Install Json Server globally
 ```bash
 $ npm install -g json-server
 ```
-ou
+or
 ```bash
 $ yarn add json-server -g
 ```
 
--Altere o arquivo api.ts:<br>
--No baseURL onde esta escrito Seu IP, colocando o seu IP, após a alteração ficará similar ao exemplo abaixo:<br>
+-Change the api.ts file:<br>
+-In the baseURL where your IP is written, putting your IP, after the change it will be similar to the example below:<br>
 baseURL: 'http://192.168.0.1:3333'
 
--Inicie o Json Server<br>
--No host coloque o seu Ip e a porta pode ser qualquer uma que não esteja em uso, como abaixo:
+-Start Json Server<br>
+-On the host put your IP and the port can be any that is not in use, follow an example below:
 ```bash
 $ json-server ./src/services/server.json --host 192.168.0.1 --port 3333
 ```
--Baixe as bibliotecas
+-Download the libraries
 ```bash
 $ expo install
 ```
--Inicie o App
+-Start the App
 ```bash
 $ expo start
 ```
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and technologies used
 
 - ``JavaScript``
 - ``TypeScript``
 - ``React Native``
+- ``Expo``
 - ``Json Server``
 - ``CSS``
