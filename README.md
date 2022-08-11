@@ -1,6 +1,6 @@
 <h1 align="center"> 🌻Plant-Manager </h1>
 
-## Project Summary
+# Project Summary
 An App to organize and care for your plants 😁
 
 ## Application images below 😬
