@@ -3,24 +3,39 @@
 # Project Summary
 An App to organize and care for your plants 😁
 
-## Application images below 😬
+## Layout 😬
+<p>The layout consists of two types of navigation, with welcome for new users, and two lists of plants, one to include plants and another with your list of plants already registered.</p>
 
-<p>
-<img src="https://i.imgur.com/ax0hbGi.jpg" style="width: 400px; height: 650px"/>
-<img src="https://i.imgur.com/nznglAE.jpg" style="width: 400px; height: 650px"/>
-</P>
-
-<p>
-<img src="https://i.imgur.com/1SWuXaG.jpg" style="width: 400px; height: 650px"/>
-<img src="https://i.imgur.com/EP3bkVd.jpg" style="width: 400px; height: 650px"/>
-</P>
-<p>
-<img src="https://i.imgur.com/jSEJde6.jpg" style="width: 400px; height: 650px"/>
-<img src="https://i.imgur.com/siNXtvA.jpg" style="width: 400px; height: 650px"/>
-</P>
-<p align="center">
-<img src="https://i.imgur.com/mvcp84E.jpg" style="width: 400px; height: 650px"/>
-</p>
+<details> <summary> Click Here to see screenshots </summary>
+  <h2>Welcome</h2>
+  
+  ![Welcome](https://i.imgur.com/ax0hbGi.jpg) 
+  
+  <h2> Name </h2>
+  
+  ![Name](https://i.imgur.com/nznglAE.jpg) 
+  
+  <h2> Register </h2>
+  
+  ![Register](https://i.imgur.com/1SWuXaG.jpg) 
+  
+  <h2> Registered </h2>
+  
+  ![Registered](https://i.imgur.com/EP3bkVd.jpg) 
+  
+  <h2> List </h2>
+  
+  ![List](https://i.imgur.com/jSEJde6.jpg)
+  
+   <h2> Detail </h2>
+  
+  ![Detail](https://i.imgur.com/siNXtvA.jpg)
+  
+  
+   <h2> Reminder </h2>
+  
+  ![Reminder](https://i.imgur.com/mvcp84E.jpg)
+</details>
 
 ## 📁 Project Access
 To try it is very simple:<br>
